@@ -9,7 +9,7 @@ const { chains, publicClient } = configureChains(
   [
     jsonRpcProvider({
       rpc: () => ({
-        http: "QUICKNODE_HTTP_PROVIDER_URL" // 👈 Replace this with your HTTP URL from the previous step
+        http: "https://eth-mainnet.g.alchemy.com/v2/dcvfPitBtlvRSIYRW6upYLZnPBPv_nHY"
       }),
     })
   ]
